@@ -139,6 +139,11 @@ cursor: pointer;
             text-align: center;
             box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
         }
+        .wrapper{
+            background: fixed;
+    background-color:mediumslateblue;
+    height:100vh;
+        }
 
     }
 
@@ -156,6 +161,11 @@ cursor: pointer;
             text-align: center;
             box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
         }
+        .wrapper{
+            background: fixed;
+    background-color:mediumslateblue;
+    height:100vh;
+        }
 
     }
 
@@ -172,6 +182,13 @@ cursor: pointer;
             border-radius:10px;
             text-align: center;
             box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
+        }
+
+
+        .wrapper{
+            background: fixed;
+    background-color:mediumslateblue;
+    height:100vh;
         }
 
     }
