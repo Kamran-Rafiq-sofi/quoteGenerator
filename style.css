@@ -123,16 +123,6 @@ cursor: pointer;
         transition:0.5s;
     }
 
-    @media(min-width:100px){
-
-        .wrapper{
-            /* background: fixed; */
-    background-color:mediumslateblue;
-    height:100vh;
-    /* width:100vw; */
-        }
-
-    }
 
     @media(min-width:400px){
 
