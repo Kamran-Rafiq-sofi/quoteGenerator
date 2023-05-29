@@ -20,15 +20,41 @@
     /* border: 1px solid black; */
     /* border-radius:15px; */
 }
+
+
+.name{
+    background: #fff;
+    width:700px;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding:40px;
+    border-radius:30px;
+    text-align: center;
+    box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
+}
+
+.name::after{
+    content: '';
+    width:65px;
+    height:3px;
+    border-radius:20px;
+    background: rgb(23,124,229);
+    position: absolute;
+    bottom:30px;
+    left:50%;
+    transform: translateX(-50%);
+}
 .quote-box{
     background: #fff;
     width:700px;
     position: absolute;
-    top:50%;
+    top:60%;
     left:50%;
     transform: translate(-50%, -50%);
     padding:40px;
-    border-radius:10px;
+    border-radius:30px;
     text-align: center;
     box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
 }
@@ -125,15 +151,28 @@ cursor: pointer;
 
     @media(max-width:399px){
 
+        .name{
+            background: #fff;
+            width:200px;
+            position: absolute;
+            top:12%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            padding:40px;
+            border-radius:30px;
+            text-align: center;
+            box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
+        }
+
         .quote-box{
             background: #fff;
             width:200px;
             position: absolute;
-            top:50%;
+            top:60%;
             left:50%;
             transform: translate(-50%, -50%);
             padding:40px;
-            border-radius:10px;
+            border-radius:30px;
             text-align: center;
             box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
         }
@@ -149,15 +188,28 @@ cursor: pointer;
 
     @media(min-width:400px){
 
+        .name{
+            background: #fff;
+            width:400px;
+            position: absolute;
+            top:12%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            padding:40px;
+            border-radius:30px;
+            text-align: center;
+            box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
+        }
+
         .quote-box{
             background: #fff;
             width:400px;
             position: absolute;
-            top:50%;
+            top:60%;
             left:50%;
             transform: translate(-50%, -50%);
             padding:40px;
-            border-radius:10px;
+            border-radius:30px;
             text-align: center;
             box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
         }
@@ -170,16 +222,28 @@ cursor: pointer;
     }
 
     @media(min-width:700px){
+        .name{
+            background: #fff;
+            width:600px;
+            position: absolute;
+            top:12%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            padding:40px;
+            border-radius:30px;
+            text-align: center;
+            box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
+        }
 
         .quote-box{
             background: #fff;
             width:600px;
             position: absolute;
-            top:50%;
+            top:60%;
             left:50%;
             transform: translate(-50%, -50%);
             padding:40px;
-            border-radius:10px;
+            border-radius:30px;
             text-align: center;
             box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
         }
@@ -192,16 +256,28 @@ cursor: pointer;
     }
 
     @media(min-width:1000px){
+        .name{
+            background: #fff;
+            width:700px;
+            position: absolute;
+            top:12%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            padding:40px;
+            border-radius:30px;
+            text-align: center;
+            box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
+        }
 
         .quote-box{
             background: #fff;
             width:700px;
             position: absolute;
-            top:50%;
+            top:60%;
             left:50%;
             transform: translate(-50%, -50%);
             padding:40px;
-            border-radius:10px;
+            border-radius:30px;
             text-align: center;
             box-shadow:0 10px 20px 0px rgba(0,0,0,0.15);
         }

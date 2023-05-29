@@ -18,7 +18,8 @@
 // getquotes(api_quotes);
 const nameOfPerson=window.prompt("please enter your name");
 window.alert("welcome "+ nameOfPerson);
-
+const nameA=document.getElementById('name');
+nameA.innerHTML=nameOfPerson;
 
 const quoteContent=document.getElementById('text');
 const quoteAuthor=document.getElementById('quote-author');
